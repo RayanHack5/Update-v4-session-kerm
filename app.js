@@ -11,7 +11,7 @@ app.use(express.static('public')); // Assurez-vous que votre fichier HTML, CSS, 
  */
 async function checkIfForked(username) {
   const repositoryOwner = 'Kgtech-cmr'; // Remplacez par le nom d'utilisateur ou l'organisation propriétaire du dépôt
-  const repositoryName = 'Kgtech-cmr/KERM_MD-V4'; // Remplacez par le nom du dépôt
+  const repositoryName = 'KERM_MD-V4'; // Remplacez par le nom du dépôt
 
   // URL GitHub API pour vérifier les forks
   const apiUrl = `https://api.github.com/repos/${repositoryOwner}/${repositoryName}/forks`;
